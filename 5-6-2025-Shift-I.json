@@ -182,12 +182,13 @@
     "explanation": "মোট স্কোর = $12 \\times 60 + 18 \\times 62 = 720 + 1116 = 1836$\\nগড় = $\\dfrac{1836}{30} = 61.2$"
   },
   {
-    "id": 27,
-    "question": "প্রদত্ত ভেন চিত্রটি মনোযোগসহকারে দেখুন এবং প্রশ্নের উত্তর দিন।\n<svg width=\\"300\\" height=\\"220\\" xmlns=\\"http://www.w3.org/2000/svg\">\\n  <circle cx=\\"100\\" cy=\\"100\\" r=\\"70\\" fill=\\"none\\" stroke=\\"black\\" stroke-width=\\"2\\"/>\\n  <circle cx=\\"180\\" cy=\\"100\\" r=\\"70\\" fill=\\"none\\" stroke=\\"black\\" stroke-width=\\"2\\"/>\\n  <circle cx=\\"140\\" cy=\\"160\\" r=\\"70\\" fill=\\"none\\" stroke=\\"black\\" stroke-width=\\"2\\"/>\\n  <text x=\\"70\" y=\\"70\\" font-size=\\"14\\">chef</text>\\n  <text x=\\"190\\" y=\\"70\\" font-size=\\"14\\">teacher</text>\\n  <text x=\"120\" y=\"210\" font-size=\"14\">lawyer</text>\n  <text x=\"70\" y=\"100\" font-size=\"12\">21</text>\n  <text x=\"130\" y=\"90\" font-size=\\"12\\">9</text>\\n  <text x=\\"200\\" y=\\"100\\" font-size=\\"12\\">40</text>\\n  <text x=\\"120\\" y=\\"130\\" font-size=\\"12\\">7</text>\\n  <text x=\\"160\\" y=\\"140\\" font-size=\\"12\\">8</text>\\n  <text x=\\"100\\" y=\\"170\\" font-size=\\"12\\">5</text>\\n  <text x=\\"130\\" y=\\"190\\" font-size=\\"12\\">30</text>\\n</svg>\\nবিভিন্ন অংশে সংখ্যাগুলি ব্যক্তির সংখ্যা নির্দেশ করে। এমন কতজন শেফ আছেন যারা শিক্ষকও কিন্তু আইনজীবী নন?",
-    "options": ["8", "9", "5", "7"],
-    "answer": "9",
-    "explanation": "শেফ ও শিক্ষকের ছেদ কিন্তু আইনজীবীর বাইরে = 9।"
-  },
+"id": 27,
+"question": "প্রদত্ত ভেন চিত্রটি মনোযোগসহকারে দেখুন এবং প্রশ্নের উত্তর দিন।\n<svg width="300" height="220" xmlns="http://www.w3.org/2000/svg\">\n  <circle cx="100" cy="100" r="70" fill="none" stroke="black" stroke-width="2"/>\n  <circle cx="180" cy="100" r="70" fill="none" stroke="black" stroke-width="2"/>\n  <circle cx="140" cy="160" r="70" fill="none" stroke="black" stroke-width="2"/>\n  <text x="70" y="70" font-size="14">chef</text>\n  <text x="190" y="70" font-size="14">teacher</text>\n  <text x="120" y="210" font-size="14">lawyer</text>\n  <text x="70" y="100" font-size="12">21</text>\n  <text x="130" y="90" font-size="12">9</text>\n  <text x="200" y="100" font-size="12">40</text>\n  <text x="120" y="130" font-size="12">7</text>\n  <text x="160" y="140" font-size="12">8</text>\n  <text x="100" y="170" font-size="12">5</text>\n  <text x="130" y="190" font-size="12">30</text>\n</svg>\nবিভিন্ন অংশে সংখ্যাগুলি ব্যক্তির সংখ্যা নির্দেশ করে। এমন কতজন শেফ আছেন যারা শিক্ষকও কিন্তু আইনজীবী নন?",
+"options": ["8", "9", "5", "7"],
+"answer": "9",
+"explanation": "শেফ ও শিক্ষকের ছেদ কিন্তু আইনজীবীর বাইরে থাকা অংশে 9 জন আছেন। তাই উত্তর = 9।"
+}
+,
   {
     "id": 28,
     "question": "প্রথম 14টি পূর্ণ সংখ্যার গড় কত?",
