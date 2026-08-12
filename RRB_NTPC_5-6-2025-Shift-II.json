@@ -1,14 +1,15 @@
+
 [
   {
     "id": 60,
-    "question": "যদি নিম্নলিখিত ডেটার প্রচুরক (Mode) 140 হয়, তবে x-এর মান কত?<br><br><table border=\"1\" style=\"border-collapse: collapse; width: 100%; text-align: center;\"><tr><th>Class</th><td>125-130</td><td>130-135</td><td>135-140</td><td>140-145</td><td>145-150</td></tr><tr><th>Frequency</th><td>30</td><td>30</td><td>33</td><td>x</td><td>31</td></tr></table>",
+    "question": "নিচের তথ্যগুলির প্রচুরক (Mode) 140 হলে, x-এর মান কত?<br><br><div style=\"overflow-x:auto;width:100%;\"><div style=\"display:table;min-width:500px;width:100%;border:1px solid #ddd;border-collapse:collapse;font-family:Arial,sans-serif;color:#000000;\"><div style=\"display:table-row;background:#005CF4;color:#ffffff;font-weight:bold;\"><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">শ্রেণি</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">125-130</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">130-135</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">135-140</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">140-145</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">145-150</div></div><div style=\"display:table-row;background:#ffffff;\"><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;\">পরিসংখ্যা</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">30</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">30</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">33</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">x</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">31</div></div></div></div>",
     "options": ["34", "33", "47", "46"],
     "answer": "33",
-    "explanation": "প্রচুরকের সূত্র: $\\text{Mode} = L + \\left(\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\right) \\times h$<br><br>যেহেতু Mode = 140, তাই Modal Class হলো 140-145।<br>এখানে, $L = 140$, $h = 5$, $f_1 = x$, $f_0 = 33$, $f_2 = 31$<br><br>মান বসিয়ে পাই:<br>$140 = 140 + \\left(\\frac{x - 33}{2x - 33 - 31}\\right) \\times 5$<br>$\\implies 0 = \\left(\\frac{x - 33}{2x - 64}\\right) \\times 5$<br>$\\implies x - 33 = 0$<br>$\\implies x = 33$"
+    "explanation": "এখানে প্রচুরক (Mode) = 140। তাই প্রচুরক শ্রেণি হলো 135-140। প্রচুরকের সূত্র, $\\text{Mode}=l+\\frac{f_1-f_0}{2f_1-f_0-f_2}\\times h$। এখানে $l=135$, $f_1=33$, $f_0=30$, $f_2=x$ এবং $h=5$। তাই, $140=135+\\frac{33-30}{2(33)-30-x}\\times5$। অর্থাৎ, $5=\\frac{15}{36-x}$। সুতরাং $36-x=3$ এবং $x=33$।"
   },
   {
     "id": 77,
-    "question": "নিচে সংখ্যার দুটি সেট দেওয়া হলো। প্রতিটি সেটে প্রথম সংখ্যা থেকে একটি নির্দিষ্ট গাণিতিক প্রক্রিয়ার মাধ্যমে দ্বিতীয় সংখ্যা এবং একইভাবে দ্বিতীয় সংখ্যা থেকে তৃতীয় সংখ্যা পাওয়া যায়। প্রদত্ত বিকল্পগুলির মধ্যে কোনটি একই নিয়ম অনুসরণ করে?<br><br>• 3 - 5 - 10 - 12<br>• 8 - 10 - 20 - 22",
+    "question": "নিচে দুটি সংখ্যার সেট দেওয়া হয়েছে। প্রতিটি সেটে প্রথম সংখ্যার উপর একটি নির্দিষ্ট গাণিতিক ক্রিয়া করলে দ্বিতীয় সংখ্যা পাওয়া যায়। একইভাবে দ্বিতীয় সংখ্যার উপর একই ধরনের ক্রিয়া করলে তৃতীয় সংখ্যা এবং তৃতীয় সংখ্যার উপর ক্রিয়া করলে চতুর্থ সংখ্যা পাওয়া যায়।<br><br>প্রশ্নে দেওয়া সংখ্যার সেটের মতো একই ক্রিয়াকলাপ অনুসরণ করে এমন বিকল্পটি নির্বাচন করুন।<br><br><b>দ্রষ্টব্য:</b> কোনো 2 বা 3 অঙ্কের সংখ্যাকে আলাদা আলাদা অঙ্কে ভেঙে ক্রিয়া করা যাবে না। যেমন, 37-এর পর 10 থাকলে, ক্রিয়াটি 3+7 হতে পারে না, কারণ 2 অঙ্কের সংখ্যাকে আলাদা অঙ্কে ভাঙা যাবে না।<br><br>3 - 5 - 10 - 12 ; 8 - 10 - 20 - 22",
     "options": [
       "6 - 10 - 12 - 24",
       "18 - 20 - 40 - 42",
@@ -16,20 +17,30 @@
       "4 - 6 - 12 - 24"
     ],
     "answer": "18 - 20 - 40 - 42",
-    "explanation": "গাণিতিক নিয়মটি হলো: (+2, ×2, +2)<br><br>১ম সেট: 3 (+2) = 5 (×2) = 10 (+2) = 12<br>২য় সেট: 8 (+2) = 10 (×2) = 20 (+2) = 22<br><br>একইভাবে বিকল্পটি পরীক্ষা করে পাই:<br>18 (+2) = 20 (×2) = 40 (+2) = 42"
+    "explanation": "প্রথম সেটে $3\\rightarrow5$ অর্থাৎ $+2$, $5\\rightarrow10$ অর্থাৎ $\\times2$, এবং $10\\rightarrow12$ অর্থাৎ $+2$। দ্বিতীয় সেটেও $8\\rightarrow10$ অর্থাৎ $+2$, $10\\rightarrow20$ অর্থাৎ $\\times2$, এবং $20\\rightarrow22$ অর্থাৎ $+2$। অতএব নিয়মটি হলো $+2,\\times2,+2$। বিকল্প 2-এ $18\\rightarrow20\\rightarrow40\\rightarrow42$, অর্থাৎ $+2,\\times2,+2$। সুতরাং সঠিক উত্তর হলো 18 - 20 - 40 - 42।"
   },
   {
     "id": 83,
-    "question": "ইংরেজি বর্ণমালার ক্রমানুসারে, নিচের চারটি অক্ষর-গুচ্ছের মধ্যে তিনটি একটি নির্দিষ্ট উপায়ে একই রকম। কোনটি এই দলের অন্তর্ভুক্ত নয়?",
-    "options": ["DAX", "KGE", "SOM", "WSQ"],
+    "question": "ইংরেজি বর্ণমালার ক্রম অনুসারে, নিচের চারটি অক্ষর-গুচ্ছের মধ্যে তিনটি একটি নির্দিষ্ট উপায়ে একই রকম এবং তাই একটি দল গঠন করে। কোন অক্ষর-গুচ্ছটি ওই দলের অন্তর্ভুক্ত নয়?<br><br>(দ্রষ্টব্য: বেমানান অক্ষর-গুচ্ছটি ব্যঞ্জনবর্ণ/স্বরবর্ণের সংখ্যা বা অক্ষর-গুচ্ছে তাদের অবস্থানের ভিত্তিতে নির্ধারিত নয়।)",
+    "options": [
+      "DAX",
+      "KGE",
+      "SOM",
+      "WSQ"
+    ],
     "answer": "DAX",
-    "explanation": "প্রতিটি অক্ষরের পজিশনের পার্থক্য (-4, -2):<br>• KGE: K(11) -4 = G(7), G(7) -2 = E(5)<br>• SOM: S(19) -4 = O(15), O(15) -2 = M(13)<br>• WSQ: W(23) -4 = S(19), S(19) -2 = Q(17)<br><br>কিন্তু DAX এর ক্ষেত্রে:<br>D(4) -3 = A(1), A(1) -3 = X(24) (ব্যতিক্রম)"
+    "explanation": "প্রতিটি অক্ষরের ইংরেজি বর্ণমালায় অবস্থান বিবেচনা করি। KGE-এর ক্ষেত্রে $K(11)\\rightarrow G(7)\\rightarrow E(5)$, অর্থাৎ $-4,-2$। SOM-এর ক্ষেত্রে $S(19)\\rightarrow O(15)\\rightarrow M(13)$, অর্থাৎ $-4,-2$। WSQ-এর ক্ষেত্রে $W(23)\\rightarrow S(19)\\rightarrow Q(17)$, অর্থাৎ $-4,-2$। কিন্তু DAX-এর ক্ষেত্রে $D(4)\\rightarrow A(1)\\rightarrow X(24)$, একই ধারা অনুসরণ করে না। তাই DAX হলো বেমানান অক্ষর-গুচ্ছ।"
   },
   {
     "id": 99,
-    "question": "নিচে দেওয়া টেবিল ও শর্তাবলী অনুসরণ করে 2#@79 এর কোড নির্ণয় করুন:<br><br><table border=\"1\" style=\"border-collapse: collapse; width: 100%; text-align: center;\"><tr><th>Number/Symbol</th><td>7</td><td>9</td><td>@</td><td>&amp;</td><td>2</td><td>3</td><td>5</td><td>#</td><td>1</td><td>8</td><td>A</td><td>4</td><td>6</td></tr><tr><th>Code</th><td>L</td><td>C</td><td>Z</td><td>M</td><td>D</td><td>W</td><td>A</td><td>P</td><td>R</td><td>T</td><td>F</td><td>B</td><td>K</td></tr></table><br><b>শর্তাবলী:</b><br>(i) যদি প্রথম উপাদানটি প্রতীক এবং শেষটি সংখ্যা হয়, তবে উভয়ের কোড বিনিময় হবে।<br>(ii) যদি প্রথম উপাদানটি জোড় সংখ্যা এবং শেষটি বিজোড় সংখ্যা হয়, তবে প্রথম ও শেষ উপাদান দুটিকে 'O' হিসেবে কোড করা হবে।<br>(iii) যদি দ্বিতীয় ও তৃতীয় উপাদান পূর্ণবর্গ সংখ্যা হয়, তবে তৃতীয়টির কোড দ্বিতীয়টির সমান হবে।<br><br><b>প্রশ্ন কোড: 2#@79</b>",
-    "options": ["DPZLO", "OPLZC", "OPZLC", "OPZLO"],
-    "answer": "OPZLO",
-    "explanation": "প্রদত্ত কোড: 2#@79<br><br>১. প্রথম উপাদান '2' (জোড় সংখ্যা) এবং শেষ উপাদান '9' (বিজোড় সংখ্যা)।<br>২. সুতরাং, শর্ত (ii) অনুযায়ী প্রথম ও শেষ উপাদান দুটিকে 'O' লিখতে হবে।<br><br>অন্যান্য উপাদানগুলোর কোড টেবিল থেকে নিলে দাঁড়ায়:<br>• 2 &rarr; O<br>• # &rarr; P<br>• @ &rarr; Z<br>• 7 &rarr; L<br>• 9 &rarr; O<br><br>অতএব সঠিক উত্তর: OPZLO"
+    "question": "এই প্রশ্নে নিচে দেওয়া কোড এবং পরবর্তী শর্ত অনুযায়ী একটি সংখ্যা/প্রতীকের গুচ্ছকে অক্ষর-কোডে রূপান্তর করা হয়েছে। প্রযোজ্য শর্তগুলি অনুসরণ করে সঠিক কোডের সমন্বয়টি নির্বাচন করুন।<br><br><div style=\"overflow-x:auto;width:100%;\"><div style=\"display:table;min-width:520px;width:100%;border:1px solid #ddd;border-collapse:collapse;font-family:Arial,sans-serif;color:#000000;\"><div style=\"display:table-row;background:#005CF4;color:#ffffff;font-weight:bold;\"><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">সংখ্যা/প্রতীক</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">7</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">9</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">@</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">&amp;</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">2</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">3</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">5</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">#</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">1</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">8</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">∆</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">4</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">6</div></div><div style=\"display:table-row;background:#ffffff;\"><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;\">কোড</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">L</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">C</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">Z</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">M</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">D</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">W</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">A</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">P</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">R</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">T</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">F</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">B</div><div style=\"display:table-cell;padding:10px;border:1px solid #ddd;text-align:center;\">K</div></div></div></div><br><b>শর্ত:</b><br>(i) যদি প্রথম উপাদানটি একটি প্রতীক এবং শেষ উপাদানটি একটি সংখ্যা হয়, তাহলে প্রথম ও শেষ উপাদানের কোড পরস্পরের মধ্যে পরিবর্তন করতে হবে।<br>(ii) যদি প্রথম উপাদানটি একটি জোড় সংখ্যা এবং শেষ উপাদানটি একটি বিজোড় সংখ্যা হয়, তাহলে প্রথম ও শেষ উপাদানের কোড হবে ©।<br>(iii) যদি দ্বিতীয় ও তৃতীয় উপাদান উভয়ই পূর্ণবর্গ সংখ্যা হয়, তাহলে তৃতীয় উপাদানের কোড দ্বিতীয় উপাদানের কোডের সমান হবে।<br><br><b>2 # @ 7 9</b>",
+    "options": [
+      "D P Z L ©",
+      "© P L Z C",
+      "© P Z L C",
+      "© P Z L ©"
+    ],
+    "answer": "© P Z L ©",
+    "explanation": "প্রদত্ত গুচ্ছ হলো $2\\ #\\ @\\ 7\\ 9$। কোড অনুযায়ী $2\\rightarrow D$, $\\#\\rightarrow P$, $@\\rightarrow Z$, $7\\rightarrow L$, $9\\rightarrow C$। এখানে প্রথম উপাদান 2 একটি জোড় সংখ্যা এবং শেষ উপাদান 9 একটি বিজোড় সংখ্যা। তাই শর্ত (ii) অনুযায়ী প্রথম ও শেষ উভয় উপাদানের কোড হবে ©। মাঝের তিনটি কোড অপরিবর্তিত থাকবে: $\\#\\rightarrow P$, $@\\rightarrow Z$, $7\\rightarrow L$। অতএব সঠিক কোড হলো $©\\ P\\ Z\\ L\\ ©$। তাই সঠিক উত্তর হলো বিকল্প 4।"
   }
 ]
